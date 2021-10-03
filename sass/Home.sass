@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@900&display=swap')
+@import "../../node_modules/bootstrap/scss/bootstrap.scss"
+
+*
+  margin: 0
+  padding: 0
+
+.root
+  background: url("../assets/background.jpg")
+  height: 100vh
+
+.main
+  margin: 0 auto
+  padding: 0 10px 0 10px
+  height: 100vh 
+  width: 50%
+  background: white
+
+.navbar
+  height: 10vh
+  background: #406343
+  box-sizing: border-box
+
+  .navbar-title
+    h3  
+      font-family: 'Source Code Pro', monospace
+      text-align: left  
+      color: #FAF1E6
+  
+  .navbar-search
+    display: flex
+    justify-content: center
+
+    input[type="search"]
+      text-align: center
+      padding: 3px
+      border-radius: 10px
+      border: none
+
+  .navbar-order
+    img
+      width: 50px
+    
+    .navbar-order-count
+      width: 50px
+      height: 50px
+      top: 10px
+      position: absolute
+      z-index: -1
+      border-radius: 10px
+      background: #A2416B
